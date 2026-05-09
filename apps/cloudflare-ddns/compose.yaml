@@ -45,6 +45,7 @@ services:
         ${FIVEFILTERS_FULL_TEXT_RSS_HOSTNAME}, 
         ${HOMARR_HOSTNAME},
         ${HONEY_HOSTNAME},
+        ${HOUND_HOSTNAME},
         ${HUNTARR_HOSTNAME},
         ${IMMICH_HOSTNAME},
         ${IPTVBOSS_HOSTNAME},

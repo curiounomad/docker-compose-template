@@ -38,6 +38,7 @@ include:
   - apps/gluetun/compose.yaml
   - apps/homarr/compose.yaml
   - apps/honey/compose.yaml
+  - apps/hound/compose.yaml
   - apps/huntarr/compose.yaml
   - apps/immich/compose.yaml
   - apps/iptvboss/compose.yaml
