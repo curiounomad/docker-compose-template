@@ -26,6 +26,7 @@ include:
   - apps/decypharr/compose.yaml
   - apps/deunhealth/compose.yaml
   - apps/discord-tickets/compose.yaml
+  - apps/dockhand/compose.yaml
   - apps/dockge/compose.yaml
   - apps/dozzle/compose.yaml
   - apps/easynews-indexer/compose.yaml
