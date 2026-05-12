@@ -4,7 +4,9 @@ services:
     container_name: watchtower
     restart: unless-stopped
     environment:
-      TZ: ${TZ:-UTC}  
+      TZ: ${TZ:-UTC}
+      REPO_USER: ${DOCKERHUB_USERNAME:-}
+      REPO_PASS: ${DOCKERHUB_PASSWORD:-}
       WATCHTOWER_CLEANUP: "true"
       WATCHTOWER_SCHEDULE: ${AUTO_UPDATE_SCHEDULE:-0 0 6 * * *} # Run at 6am daily
       WATCHTOWER_NOTIFICATION_URL: ${AUTO_UPDATE_NOTIFICATION_URL:-}
